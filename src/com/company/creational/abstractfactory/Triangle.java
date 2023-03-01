@@ -1,0 +1,11 @@
+package com.company.creational.abstractfactory;
+
+/**
+ * @author Meiram Sopy Temirzhanov
+ */
+public class Triangle implements IShape {
+    @Override
+    public void drawShape() {
+        System.out.println("Triangle is drawing...");
+    }
+}
